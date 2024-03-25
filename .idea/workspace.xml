@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f617c5a2-4016-48a1-ae5e-86413c5fec92" name="Changes" comment="sharing to collaborators">
-      <change afterPath="$PROJECT_DIR$/.idea/RAI_Capstone.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecyclingCostPredicting/Real_Find_URL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecyclingCostPredicting/RecyclingCost.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecyclingCostPredicting/Update_file_name_to_date.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecyclingCostPredicting/Retrieve_All.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecyclingCostPredicting/Retrieve_All.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecyclingCostPredicting/Retrieve_Data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecyclingCostPredicting/WasteSQL.db" beforeDir="false" afterPath="$PROJECT_DIR$/RecyclingCostPredicting/WasteSQL.db" afterDir="false" />
-    </list>
+    <list default="true" id="f617c5a2-4016-48a1-ae5e-86413c5fec92" name="Changes" comment="update database" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +72,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
-    "git-widget-placeholder": "mim",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/MimTh/PycharmProjects/RAI_Capstone",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -129,6 +115,7 @@
     </configuration>
     <configuration name="Real_Find_URL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RAI_Capstone" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -314,7 +301,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="mim" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
