@@ -29,7 +29,7 @@ def getDataDateSingle(table):
     aug = "สิงหาคม"
     sep = "กันยายน"
     oct = "ตุลาคม"
-    nov = "พฤจิกายน"
+    nov = "พฤศจิกายน"
     dec = "ธันวาคม"
 
     for tab in table:
@@ -74,7 +74,7 @@ def getDataDateSingle(table):
                 x = datetime.datetime(year, month, date).date()
                 dataDate = x.strftime("%d-%m-%Y")
                 return dataDate
-            
+
 concatenated_df = pd.DataFrame([])
 for tabl in tableList[1:]:
     tb_name = "'" + tabl[0] + "'"
