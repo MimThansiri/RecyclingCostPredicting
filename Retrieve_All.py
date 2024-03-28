@@ -4,6 +4,25 @@ import pandas as pd
 import sqlite3
 
 
+# Function to create a new column in the PrintHistoryLinks table
+def add_column():
+    db_connection = sqlite3.connect('RecyclingCost.db')
+    cursor_col = db_connection.cursor()
+
+    # Define the SQL query to add the file_name column to the PrintHistoryLinks table
+    alter_query = "ALTER TABLE PrintHistoryLinks ADD COLUMN file_name TEXT"
+
+    # Execute the query
+    cursor_col.execute(alter_query)
+
+    # Commit the changes
+    db_connection.commit()
+
+    # Close the cursor and connection
+    cursor_col.close()
+    db_connection.close()
+
+
 # Function to scrape and process data from a given URL
 def process_url(url):
     page = requests.get(url)
@@ -24,6 +43,23 @@ def process_url(url):
 
     print(file_name)
 
+    # Update the PrintHistoryLinks table with the file name
+    db_connection_out = sqlite3.connect('RecyclingCost.db')
+    cursor_out = db_connection_out.cursor()
+
+    # Define the SQL query to insert the file name into the PrintHistoryLinks table
+    insert_query = "UPDATE PrintHistoryLinks SET file_name = ? WHERE link = ?"
+
+    # Execute the query
+    cursor_out.execute(insert_query, (file_name, url))
+
+    # Commit the changes
+    db_connection_out.commit()
+
+    # Close the cursor and connection
+    cursor_out.close()
+    db_connection_out.close()
+
     # print(soup.find_all('table')[5])  # Nonferrous metals
 
     nonferrous_metals = soup.find_all('table')[5]
@@ -32,7 +68,7 @@ def process_url(url):
     nonferrous_metals_title = nonferrous_metals.find_all('th')
     # print(nonferrous_metals_title)
 
-    nonferrous_metals_table_title = [title.text for title in nonferrous_metals_title]
+    # nonferrous_metals_table_title = [title.text for title in nonferrous_metals_title]
     # print(nonferrous_metals_table_title)
 
     main_title = nonferrous_metals_title[0].text.strip()
@@ -76,12 +112,12 @@ def process_url(url):
     # Print str type list - sub
     # print("Subcategories values:")
     # for value in subcategories_value:
-        # print(value)
+    # print(value)
 
     # Print float type list - price
     # print("\nPrice values:")
     # for value in price_value:
-        # print(value)
+    # print(value)
 
     # Create a DataFrame with MultiIndex
     df_nonferrous_metals = pd.DataFrame(index=subcategories_value, columns=pd.MultiIndex.from_tuples(
@@ -94,7 +130,8 @@ def process_url(url):
     # print(df_nonferrous_metals)
 
     # Create a connection to the SQLite database (if the database doesn't exist, it will be created)
-    db_connection = sqlite3.connect('WasteSQL.db')
+    # db_connection = sqlite3.connect('WasteSQL.db')
+    db_connection = sqlite3.connect('RecyclingCost.db')
 
     # Save the DataFrame to the database
     df_nonferrous_metals.to_sql(name=file_name, con=db_connection, if_exists='replace', index=False)
@@ -103,8 +140,11 @@ def process_url(url):
     db_connection.close()
 
 
+# Add the file_name column to the PrintHistoryLinks table
+add_column()
+
 # Connect to the SQLite database
-db_connection_outer = sqlite3.connect('WasteSQL.db')
+db_connection_outer = sqlite3.connect('RecyclingCost.db')
 
 # Create a cursor object to execute SQL queries
 cursor = db_connection_outer.cursor()
