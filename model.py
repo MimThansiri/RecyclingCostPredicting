@@ -1,12 +1,10 @@
 # Importing required libraries
-import yfinance as yf
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow import keras
-import matplotlib.dates as mdates
 import numpy as np
+
 # Load the dataset
 Wheelprice = pd.read_csv("cleanData.csv")
 
