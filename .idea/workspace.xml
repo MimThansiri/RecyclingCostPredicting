@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="069b2dea-12f6-430a-9346-b5206ac954a5" name="Changes" comment="csv file and LR Plot">
-      <change afterPath="$PROJECT_DIR$/Combine_Daily.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Correlation_Coef.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/combined_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/correlation_matrix.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/merged_daily_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="069b2dea-12f6-430a-9346-b5206ac954a5" name="Changes" comment="combine data with parameters and find correlation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -218,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711946099363</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="combine data with parameters and find correlation">
+      <option name="closed" value="true" />
+      <created>1711957414443</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711957414443</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +241,8 @@
     <MESSAGE value="csv file and LR Plot" />
     <MESSAGE value="change title lr pic" />
     <MESSAGE value="ws" />
-    <option name="LAST_COMMIT_MESSAGE" value="ws" />
+    <MESSAGE value="combine data with parameters and find correlation" />
+    <option name="LAST_COMMIT_MESSAGE" value="combine data with parameters and find correlation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -255,7 +256,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/RAI_Capstone$Correlation_Coef.coverage" NAME="Correlation_Coef Coverage Results" MODIFIED="1711956796384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RAI_Capstone$Correlation_Coef.coverage" NAME="Correlation_Coef Coverage Results" MODIFIED="1711957008275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RAI_Capstone$Ascending_date.coverage" NAME="Ascending_date Coverage Results" MODIFIED="1711944960381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RAI_Capstone$RetrieveToPlot_tryLR.coverage" NAME="RetrieveToPlot_tryLR Coverage Results" MODIFIED="1711945584994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RAI_Capstone$Combine_Daily.coverage" NAME="Combine_Daily Coverage Results" MODIFIED="1711954089715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
