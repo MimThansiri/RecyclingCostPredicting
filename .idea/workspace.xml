@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2717f18d-1b58-4516-ad9f-d7205680386e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RetrievetoPlot_ExtrusionAluminium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aluminum_extrusion.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linear_regression_plot_aluminum_extrusion.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RAI_Capstone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RAI_Capstone.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2717f18d-1b58-4516-ad9f-d7205680386e" name="Changes" comment="Make a linear regession on aluminium extrusion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecyclingCost.db" beforeDir="false" afterPath="$PROJECT_DIR$/RecyclingCost.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RetrievetoPlot_ExtrusionAluminium.py" beforeDir="false" afterPath="$PROJECT_DIR$/RetrievetoPlot_ExtrusionAluminium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_plot_aluminum_extrusion.png" beforeDir="false" afterPath="$PROJECT_DIR$/linear_regression_plot_aluminum_extrusion.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +23,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ReddestPanda&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c9b8261b-4117-4a9a-8db3-621ccc22bd26" />
+        <option name="url" value="https://github.com/MimThansiri/RecyclingCostPredicting.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -154,6 +163,15 @@
       <option name="presentableId" value="Default" />
       <updated>1711616036122</updated>
     </task>
+    <task id="LOCAL-00001" summary="Make a linear regession on aluminium extrusion">
+      <option name="closed" value="true" />
+      <created>1711945235134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711945235134</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,5 +199,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Make a linear regession on aluminium extrusion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make a linear regession on aluminium extrusion" />
   </component>
 </project>
