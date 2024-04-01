@@ -27,7 +27,7 @@ y_pred = model.predict(X_timestamp)
 plt.scatter(X_datetime, y, color='blue', label='Data Points')
 plt.plot(X_datetime, y_pred, color='red', label='Linear Regression')
 
-plt.title('Linear Regression of Price over Time')
+plt.title('Linear Regression: Aluminium printed plate')
 plt.xlabel('Date')
 plt.ylabel('Price')
 plt.legend()
