@@ -25,8 +25,8 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="5c8037b0-02e1-4b36-8ca1-3581a6703850" object-ref="schemas/main/tables/PrintHistoryLinks" />
       <object connection-id="5c8037b0-02e1-4b36-8ca1-3581a6703850" object-ref="schemas/main/tables/ใบแจ้งราคารับซื้อสินค้า วัน จันทร์ ที่ 10 กรกฏาคม 2566 (ราคาค้าปลีก)" />
+      <object connection-id="5c8037b0-02e1-4b36-8ca1-3581a6703850" object-ref="schemas/main/tables/PrintHistoryLinks" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
