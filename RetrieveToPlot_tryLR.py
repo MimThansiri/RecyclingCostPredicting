@@ -67,7 +67,7 @@ regression_model.fit(X, y)
 # Plotting the regression line
 plt.plot(df_aluminum_can['update_date'], regression_model.predict(X), color='red', label='Linear Regression')
 
-plt.title('Linear Regression')
+plt.title('Linear Regression: Aluminum Can')
 plt.xlabel('Date')
 plt.ylabel('Price per unit')
 plt.legend()
