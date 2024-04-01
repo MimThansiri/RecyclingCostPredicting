@@ -1,11 +1,10 @@
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.model_selection import train_test_split, RandomizedSearchCV
+from sklearn.model_selection import RandomizedSearchCV
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 from tensorflow.keras.wrappers.scikit_learn import KerasRegressor
-from tensorflow.keras.callbacks import ModelCheckpoint
 
 # Load preprocessed data containing 'price' and 'export' columns
 data = pd.read_csv('preprocess_data.csv', usecols=['update_date', 'price', 'export'])
