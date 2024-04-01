@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('final_data.csv', thousands=',')
 
 # Renaming the desired column
-df.rename(columns={"('ประเภทโลหะที่มีค่าสูง / Nonferrous metals', 'ราคา / หน่วย')": "price of aluminum can"}, inplace=True)
+df.rename(columns={"price": "price of aluminum printed plate"}, inplace=True)
 
 # Select desired columns
-desired_columns = ["price of aluminum can", 'Set_Price', 'USD_Price', 'import', 'export', 'gdp', 'cpi']
+desired_columns = ["price of aluminum printed plate", 'Set_Price', 'USD_Price', 'import', 'export', 'gdp', 'cpi']
 
 selected_df = df[desired_columns]
 
@@ -41,6 +41,6 @@ heatmap.set_xticklabels(heatmap.get_xticklabels(), rotation=45, ha='right', font
 heatmap.set_yticklabels(heatmap.get_yticklabels(), rotation=0, fontsize=10)
 
 # Save the heatmap as an image file
-plt.savefig('heatmap_aluminum_can.png', dpi=300, bbox_inches='tight')
+plt.savefig('heatmap_aluminum_printed_plate.png', dpi=300, bbox_inches='tight')
 
 plt.show()

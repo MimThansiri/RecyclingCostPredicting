@@ -1,12 +1,12 @@
 import pandas as pd
 
 # Load data from CSV files
-price_data = pd.read_csv('aluminum_can.csv')
+price_data = pd.read_csv('cleanData.csv')
 set_data = pd.read_csv('SET_Index_Historical_Data.csv')
 usd_data = pd.read_csv('USD_THB_Historical_Data.csv')
 
 # Rename 'update date' column to 'Date' in price_data
-price_data.rename(columns={'update_date': 'Date'}, inplace=True)
+price_data.rename(columns={'date': 'Date'}, inplace=True)
 
 # Convert date columns to datetime format
 price_data['Date'] = pd.to_datetime(price_data['Date']).dt.strftime('%d/%m/%Y')
