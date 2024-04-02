@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 import matplotlib.pyplot as plt
 
 # Load the trained model
-model = load_model('final_model.h5')
+model = load_model('finalja_model.h5')
 
 # Load the preprocessed test data containing 'price' and 'export' columns
 test_data = pd.read_csv('preprocess_data.csv', usecols=['update_date', 'price', 'export'])
