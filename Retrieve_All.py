@@ -130,7 +130,6 @@ def process_url(url):
     # print(df_nonferrous_metals)
 
     # Create a connection to the SQLite database (if the database doesn't exist, it will be created)
-    # db_connection = sqlite3.connect('WasteSQL.db')
     db_connection = sqlite3.connect('RecyclingCost.db')
 
     # Save the DataFrame to the database
