@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from datetime import datetime
 
 # Connect to SQLite database
-conn = sqlite3.connect('RecyclingCost.db')
+conn = sqlite3.connect('data.db')
 cursor = conn.cursor()
 
 # Initialize an empty dataframe
