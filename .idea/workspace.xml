@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="069b2dea-12f6-430a-9346-b5206ac954a5" name="Changes" comment="combine data with parameters and find correlation" />
+    <list default="true" id="069b2dea-12f6-430a-9346-b5206ac954a5" name="Changes" comment="combine data with parameters and find correlation">
+      <change afterPath="$PROJECT_DIR$/data engineering interaction heat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data engineering interaction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data engineering lag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data engineering normal standard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data engineering rolling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data engineering technical.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_of_aluminum_extrusion_normalized_standardized.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_of_aluminum_extrusion_with_interaction.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_of_aluminum_extrusion_with_interaction_heat.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_of_aluminum_extrusion_with_lag.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_of_aluminum_extrusion_with_rolling.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price_of_aluminum_extrusion_with_technical_indicators.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/technical_indicators.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,12 +41,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MimThansiri"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MimThansiri&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -53,24 +69,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.Ascending_date.executor": "Run",
-    "Python.Combine_Daily.executor": "Run",
-    "Python.Correlation_Coef.executor": "Run",
-    "Python.RetrieveToPlot_tryLR.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "git-widget-placeholder": "mim",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Ascending_date.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Combine_Daily.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Correlation_Coef.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Data Engineering.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RetrieveToPlot_tryLR.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data engineering interaction heat.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data engineering interaction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data engineering lag.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data engineering normal standard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data engineering rolling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data engineering technical.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Mek&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.Correlation_Coef">
+}</component>
+  <component name="RunManager" selected="Python.Ascending_date">
     <configuration name="Ascending_date" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RAI_Capstone" />
       <option name="ENV_FILES" value="" />
@@ -165,12 +189,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ascending_date" />
         <item itemvalue="Python.Correlation_Coef" />
         <item itemvalue="Python.Combine_Daily" />
-        <item itemvalue="Python.Ascending_date" />
         <item itemvalue="Python.RetrieveToPlot_tryLR" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -242,7 +273,8 @@
     <MESSAGE value="change title lr pic" />
     <MESSAGE value="ws" />
     <MESSAGE value="combine data with parameters and find correlation" />
-    <option name="LAST_COMMIT_MESSAGE" value="combine data with parameters and find correlation" />
+    <MESSAGE value="Make a linear regession on aluminium extrusion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make a linear regession on aluminium extrusion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
