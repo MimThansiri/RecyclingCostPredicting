@@ -12,6 +12,7 @@ cursor = conn.cursor()
 cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name != 'PrintHistoryLinks'")
 table_names = [row[0] for row in cursor.fetchall()]
 
+
 # Function to extract data for a specific product
 def extract_product_data(product):
     data = []
@@ -22,6 +23,7 @@ def extract_product_data(product):
         for row in rows:
             data.append({'Price': row[1], 'Date': table_name})
     return data
+
 
 # Extract data for each product and save to CSV
 for product in products:
