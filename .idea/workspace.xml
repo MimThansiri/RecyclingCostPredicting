@@ -5,21 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="069b2dea-12f6-430a-9346-b5206ac954a5" name="Changes" comment="combine data with parameters and find correlation">
-      <change afterPath="$PROJECT_DIR$/data engineering interaction heat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data engineering interaction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data engineering lag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data engineering normal standard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data engineering rolling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data engineering technical.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/price_of_aluminum_extrusion_normalized_standardized.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/price_of_aluminum_extrusion_with_interaction.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/price_of_aluminum_extrusion_with_interaction_heat.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/price_of_aluminum_extrusion_with_lag.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/price_of_aluminum_extrusion_with_rolling.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/price_of_aluminum_extrusion_with_technical_indicators.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technical_indicators.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all data and variation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data engineering merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_data_engineer.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data engineering interaction heat.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_engineering_interaction_heat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data engineering interaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_engineering_interaction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data engineering lag.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_engineering_lag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data engineering normal standard.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_engineering_normal_standard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data engineering rolling.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_engineering_rolling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data engineering technical.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_engineering_technical.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,12 +73,15 @@
     &quot;Python.Correlation_Coef.executor&quot;: &quot;Run&quot;,
     &quot;Python.Data Engineering.executor&quot;: &quot;Run&quot;,
     &quot;Python.RetrieveToPlot_tryLR.executor&quot;: &quot;Run&quot;,
+    &quot;Python.all data and variation.executor&quot;: &quot;Run&quot;,
     &quot;Python.data engineering interaction heat.executor&quot;: &quot;Run&quot;,
     &quot;Python.data engineering interaction.executor&quot;: &quot;Run&quot;,
     &quot;Python.data engineering lag.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data engineering merge.executor&quot;: &quot;Run&quot;,
     &quot;Python.data engineering normal standard.executor&quot;: &quot;Run&quot;,
     &quot;Python.data engineering rolling.executor&quot;: &quot;Run&quot;,
     &quot;Python.data engineering technical.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;Mek&quot;,
@@ -249,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711957414443</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="combine data with parameters and find correlation">
+      <option name="closed" value="true" />
+      <created>1721049402457</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721049402457</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,9 +279,9 @@
     <MESSAGE value="csv file and LR Plot" />
     <MESSAGE value="change title lr pic" />
     <MESSAGE value="ws" />
-    <MESSAGE value="combine data with parameters and find correlation" />
     <MESSAGE value="Make a linear regession on aluminium extrusion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make a linear regession on aluminium extrusion" />
+    <MESSAGE value="combine data with parameters and find correlation" />
+    <option name="LAST_COMMIT_MESSAGE" value="combine data with parameters and find correlation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
